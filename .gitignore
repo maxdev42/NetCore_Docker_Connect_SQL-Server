@@ -1,0 +1,8 @@
+# VS settings folder
+.vs
+
+# Executables & object files
+FirstGame/bin
+FirstGame/obj
+FirstGame/Assets/bin
+FirstGame/Assets/obj

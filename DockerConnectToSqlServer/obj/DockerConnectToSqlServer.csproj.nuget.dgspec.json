@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\maxen_xkerrno\\source\\repos\\DockerConnectToSqlServer\\DockerConnectToSqlServer\\DockerConnectToSqlServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maxen_xkerrno\\source\\repos\\DockerConnectToSqlServer\\DockerConnectToSqlServer\\DockerConnectToSqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maxen_xkerrno\\source\\repos\\DockerConnectToSqlServer\\DockerConnectToSqlServer\\DockerConnectToSqlServer.csproj",
+        "projectName": "DockerConnectToSqlServer",
+        "projectPath": "C:\\Users\\maxen_xkerrno\\source\\repos\\DockerConnectToSqlServer\\DockerConnectToSqlServer\\DockerConnectToSqlServer.csproj",
+        "packagesPath": "C:\\Users\\maxen_xkerrno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maxen_xkerrno\\source\\repos\\DockerConnectToSqlServer\\DockerConnectToSqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maxen_xkerrno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
